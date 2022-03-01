@@ -1,0 +1,48 @@
+body{
+background-color: #04756F;
+}
+h1{
+font-size: 30px;
+color: #222;
+font-weight: bold;
+}
+button{
+width: 200px;
+margin: 0 5px;
+}
+button.delete{
+background-color: #D90000;
+color: white;
+}
+button.add{
+background-color: #FF8C00;
+color: white;
+}
+.table {
+color: #222!important;
+}
+.table > :not(:last-child) > :last-child > * {
+border-bottom-color: #eee;
+}
+button.close{
+width: auto;
+border: none;
+background-color: transparent;
+font-size: 20px;
+font-weight: bold;
+}
+button.btn.close.bt{
+color: #fff;
+background-color: #0b5ed7;
+font-weight: normal;
+}
+button.add:hover,button.delete:hover{
+	color: #fff!important; 
+}
+.btn-check:focus + .btn, .btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+i{
+	cursor: pointer;
+}
